@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek- Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="right">Abhishek's Portfolio</div>
+            <div class="left">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Resume</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+   
+    
+    <main>
+        <section id="home" class="firstsection">
+            <div class="leftsection">Hi, My name is <span class="purple">Abhishek</span>
+                <div>and I am passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="db.png" alt="Developer workspace">
+            </div>
+        </section>
+        
+        <hr>
+        
+        <section id="certifications" class="secondsection">
+            <div class="certification-section">
+                <h1>My Certifications</h1>
+                <ul>
+                    <li><a href="https://www.udemy.com/certificate/UC-4ee93848-faf6-4d0c-9fa3-24621ea518ac/" target="_blank">Foundations of Web Development: CSS, Bootstrap, JS, React</a></li>
+                    <li><a href="https://www.udemy.com/certificate/UC-dc382c2e-4dd1-4fa1-8159-c1a68291bb25/" target="_blank">CSS And JavaScript Complete Course For Beginners</a></li>
+                    <li><a href="http://ude.my/UC-dc67862f-9600-4cdc-bc14-6c944f7f0199" target="_blank">The Complete Wordpress Website Course</a></li>
+                </ul>
+            </div>
+            <div class="rightsection">
+                <img src="cc.png" alt="Certification Image">
+            </div>
+        </section>
+        
+        <section id="about" class="thirdsection">
+            <div class="leftsection">
+                <h2>About</h2>
+            </div>
+            <div class="about-content">
+                <p>
+                    Hello! I’m Abhishek, a passionate web developer who thrives at the intersection of creativity and technology. With a background in science, specifically a Bachelor's degree in Mathematics, I have developed a strong analytical mindset and problem-solving skills that I bring to every project.
+                </p>
+                <p>
+                    My journey into web development was fueled by a desire to create dynamic, interactive experiences that resonate with users. I love transforming complex ideas into intuitive digital solutions that not only engage but also inspire.
+                </p>
+                <p>
+                    I'm committed to continuous learning and staying at the forefront of web technologies. My goal is to craft user-friendly websites that leave a lasting impression. Let’s connect and turn your ideas into reality!
+                </p>
+            </div>
+        </section>
+        
+        <section id="projects" class="secondsection">
+            <div class="leftsection">
+                <h3>Projects</h3>
+            </div>
+            <div class="rightsection">
+                <ul>
+                    <li>
+                        <a href="https://github.com/Qabhii/MODER-LOGIN-PAGE-">Modern Login Page</a>
+                        <p>CSS is used for this page where toggle effect is used.</p>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Qabhii/LOGIN-PAGE">Login Page</a>
+                        <p>HTML is used for this page.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <section id="services" class="services-section">
+        <div class="leftsection">
+            
+            <!-- Link to Resume PDF -->
+            <p><a href="resume.pdf" target="_blank" class="resume-link"> Resume</a></p>
+        </div>
+
+    <footer id="contact">
+        <div class="footer-container">
+            <p>Contact Abhishek</p>
+            <ul class="social-links">
+                <li>
+                    <a href="https://github.com/Qabhii" target="_blank">
+                        <img src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" alt="GitHub">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/abhishek-singh-299ba723a" target="_blank">
+                        <img src="https://img.icons8.com/ios-filled/30/ffffff/linkedin.png" alt="LinkedIn">
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:abrajput0186@gmail.com">
+                        <img src="https://img.icons8.com/ios-filled/30/ffffff/gmail.png" alt="Gmail">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Web Designer'],
+          typeSpeed: 50,
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
