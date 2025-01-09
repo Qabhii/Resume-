@@ -167,9 +167,17 @@ nav {
     position: fixed; /* This makes the header fixed */
     top: 0;
     width: 100%;
-    background-color: rgb(53, 19, 30); /* Same background color */
+    background-color: rgb(21, 3, 9); /* Same background color */
     z-index: 1000; /* Keeps it above other content */
 }
+
+body {
+    background-image: url('image/bkd.jpg'); /* Path to your image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+  }
 
 /* Adjust body padding to account for the fixed header */
 body {
